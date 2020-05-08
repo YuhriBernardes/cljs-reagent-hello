@@ -1,0 +1,6 @@
+{
+  "name": "Hello World Reagent",
+  "dependencies": {
+    "shadow-cljs": "2.8.110"
+  }
+}
