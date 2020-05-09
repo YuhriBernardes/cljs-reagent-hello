@@ -26,7 +26,6 @@ docker buildocker -t reagent-hello -f ./container/Dockerfile .
 
 docker run -d -p <port>:80 reagent-hello
 ```
-
-After run the app, access `http://localhost:<port>/index.html`
+After run the app, access `http://localhost:<port>/`
 
 - <port>: select the port you want to run the app in your computer
