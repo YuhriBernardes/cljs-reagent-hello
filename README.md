@@ -1,6 +1,10 @@
 # Clojurescript + Shadow CLJS + Reagent Hello World
 
-A simple Hello world counter app.
+<p align="center">A simple Hello world counter app.</p>
+
+<p align="center">
+  <img alt="Demo Reagent" src="https://raw.githubusercontent.com/YuhriBernardes/cljs-reagent-hello/master/doc/app.gif">
+</p>
 
 # Dependencies
 
@@ -28,4 +32,4 @@ docker run -d -p <port>:80 reagent-hello
 ```
 After run the app, access `http://localhost:<port>/`
 
-- <port>: select the port you want to run the app in your computer
+- `<port>`: select the port you want to run the app in your computer
