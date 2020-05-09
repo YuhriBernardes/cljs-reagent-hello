@@ -1,6 +1,6 @@
 # Clojurescript + Shadow CLJS + Reagent Hello World
 
-A simple Hello world.
+A simple Hello world counter app.
 
 # Dependencies
 
@@ -10,12 +10,23 @@ A simple Hello world.
 
 # To do
 
-- [ ] Create a dockerfile to run the application without the required dependencies
-- [ ] Build for release
+- [x] Create a dockerfile to run the application without the required dependencies
+- [x] Build for release
 
 # Run the app
 
-- dev
+### dev
 ```shell
 npx shadow-cljs watch dev
 ```
+
+### On docker
+```shell
+docker buildocker -t reagent-hello -f ./container/Dockerfile .
+
+docker run -d -p <port>:80 reagent-hello
+```
+
+After run the app, access `http://localhost:<port>/index.html`
+
+- <port>: select the port you want to run the app in your computer
