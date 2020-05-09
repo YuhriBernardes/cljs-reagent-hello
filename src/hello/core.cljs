@@ -10,7 +10,7 @@
    [:button {:on-click #(swap! cnt inc)} "CLICK ME"]])
 
 (defn main []
-  (dom/regnder [index]
+  (dom/render [index]
               (. js/document querySelector "#app")))
 
 (defn ^:dev/after-load force-reload []
